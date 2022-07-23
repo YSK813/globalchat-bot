@@ -3,6 +3,9 @@
 ![Bot Icon](/picture/global_icon.png)
 
 
+[Stable version](https://github.com/YSK813/globalchat-bot)
+[Experiment version](https://github.com/YSK813/globalchat-bot/tree/experiment)
+
 # Developer  
 Discord : YSK#7011  
 Twitter : [@YSK__0813](https://twitter.com/YSK__0813)  
