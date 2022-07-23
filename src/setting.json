@@ -1,0 +1,20 @@
+{
+    "prefix": ".",
+    "log_channel": "999267487847825449",
+
+    "emojis": {
+        "ok": "🔵",
+        "no": "⛔"
+    },
+
+    "embed": {
+        "color": {
+            "ok": "#007fff",
+            "no": "#ff0000"
+        }
+    },
+
+    "config": {
+        "discordlink": false
+    }
+}

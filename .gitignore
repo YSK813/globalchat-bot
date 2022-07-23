@@ -1,0 +1,7 @@
+# Node module
+node_modules
+
+
+# Custom folder
+globalchatfiles
+secret
