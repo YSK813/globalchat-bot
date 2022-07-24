@@ -38,6 +38,8 @@ client.on(`messageCreate`, (message) => {
     //GLobal chat system
     if(message.content.indexOf(prefix) !== 0) {
         if(message.mentions.users.first()) return message.react(`⛔`)
+
+        //"@everyone" and "@here" change message content
         const msgcontent = message.content.replace(/@everyone/g, `[everyone]`).replace(/@here/g, `[here]`)
 
 
