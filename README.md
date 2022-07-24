@@ -74,3 +74,7 @@ Please replace `xxx` your bot token.
   - "color": Embed color in your Bot.
     - "ok" : If process success.
     - "no" : If process error.
+- "config" : You can change the settings related to global chat.
+  - "discordlink" : Do you want to send a Discord invitation link?
+    - "true" : Can be sent.
+    - "false" : Cannot send.
