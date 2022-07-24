@@ -3,8 +3,9 @@
 ![Bot Icon](/picture/global_icon.png)
 
 
-[Stable version](https://github.com/YSK813/globalchat-bot)  
-[Experiment version](https://github.com/YSK813/globalchat-bot/tree/experiment)
+---
+・[Stable version](https://github.com/YSK813/globalchat-bot)  
+・[Experiment version](https://github.com/YSK813/globalchat-bot/tree/experiment)
 
 
 
