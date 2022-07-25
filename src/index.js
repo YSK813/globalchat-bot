@@ -83,7 +83,13 @@ client.on(`messageCreate`, (message) => {
 
                 try {
                     serverwebhook.send({content: msgcontent, username: message.author.tag, avatarURL: message.author.avatarURL()})
-                    message.react(setting.emojis.ok)
+                    message.react(setting.emojis.ok).then(() => {
+                        if(setting.config.removereaction === true) {
+                            setTimeout(() => {
+                                message.reactions.cache.get(setting.emojis.ok).users.remove(client.user.id)
+                            }, 2000);
+                        }
+                    })
                 } catch(err) {
                     console.log(err)
                 }
