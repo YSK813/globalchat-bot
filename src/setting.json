@@ -15,6 +15,7 @@
     },
 
     "config": {
-        "discordlink": false
+        "discordlink": false,
+        "removereaction": true
     }
 }

@@ -62,7 +62,8 @@ Please replace `xxx` your bot token.
     },
 
     "config": {
-        "discordlink": false
+        "discordlink": false,
+        "removereaction": true
     }
 }
 ```  
@@ -79,3 +80,6 @@ Please replace `xxx` your bot token.
   - "discordlink" : Do you want to send a Discord invitation link?
     - "true" : Can be sent.
     - "false" : Cannot send.
+  - "removereaction" : Whether to delete the reaction of transmission completion.
+    - "true" : Delete.
+    - "false" : Do not delete.
